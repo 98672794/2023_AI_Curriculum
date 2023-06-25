@@ -1,9 +1,41 @@
 # 2023_AI_Curriculum
 
-2023_AI_課程
+ATW 生產力提升學院 
+
+2023 AI 系列 - 2023 chatGPT應用課程
 
 
+2023 chatGPT應用課程是一個介紹如何使用chatGPT這個人工智慧聊天機器人的課程。
+chatGPT是由OpenAI開發的AI文本工具，它可以根據用戶的輸入和指示進行對話和生成內容。
+這個課程的內容包括：
 
+    1. ChatGPT 介紹、應用場景概述
+        1.1 - 甚麼是 ChatGPT 
+        1.2 - ChatGPT的應用場景
+
+    2. ChatGPT 的基礎知識
+        2.1 - 認識自然語言處理（NLP）
+        2.2 - ChatGPT 模型結構與工作原理
+        2.3 - ChatGPT 的限制與潛在挑戰
+
+    3. 如何執行ChatGPT
+        3.1 - 用Edge執行ChatGPT
+        3.2 - 到官網執行ChatGPT
+
+    4. ChatGPT註冊教學
+        4.1 - 準備VPN
+        4.2 - 註冊openai帳號
+        4.3 - 購買境外電話號碼
+     
+
+- 如何在網頁版或桌面應用程序上使用chatGPT
+- 如何設置和自定義chatGPT的參數和模式
+- 如何利用chatGPT的插件和擴展功能²
+- 如何評估和改進chatGPT的回答和生成品質
+- 如何避免和處理chatGPT的錯誤和局限性
+
+
+---
 
 ## 課程目錄：
 
@@ -105,10 +137,8 @@
 ### 3. 如何執行ChatGPT
 
     3.1 - 用Edge執行ChatGPT
-
-        手機或電腦下載Edge
-
-        點圖示 b 開始使用
+    
+        手機或電腦下載Edge，點圖示 b 開始使用
 
         缺點:
             回覆比較慢
@@ -134,7 +164,9 @@
 
 ### 4. ChatGPT註冊教學
 
+
     4.1 - 準備VPN
+
         手機:
             到手機商店隨便下載一個免費的VPN程式
             連線選美國或日本
@@ -145,6 +177,7 @@
             連線選速度高的
 
     4.2 - 註冊openai帳號
+
         用瀏覽器打開 https://openai.com/ 
         點 Sign up
         填寫基本信息，姓名、電郵地址和密碼
@@ -153,6 +186,7 @@
             
 
     4.3 - 購買境外電話號碼
+
         註冊openai帳號需要用電話號碼進行驗證。由於ChatGPT現時未有提供香港地區服務，可以使用sms-activate購買境外電話號碼。
 
         瀏覽器分頁打開 https://sms-activate.org
@@ -181,16 +215,101 @@
 
 
 
-### 5. 0000
+### 5. ChatGPT 提問技巧
 
+    5.1 - 提示工程(Prompt Engineering)
+
+        想讓 ChatGPT 做你想的事，你需學習寫好提示語 (prompt)，即如何提出好問題。提示語應該清晰、具體、相關、集中，並且給出一些規範和示例。
+
+    5.2 - ChatGPT工作過程分解
+
+        用戶輸入一個問題、信息需求或隨意陳述。
+        ChatGPT分析輸入並用機器學習算法生成回應，用文字返回給用戶。
+        然後用戶輸入額外內容，ChatGPT將再次分析和回應。此過程一直持續到對話結束。
+
+        決定ChatGPT對話成功的關鍵因素在於啟動和引導對話時的「提示語質量」——清晰簡潔的提示語有助於保持對話在正軌上，相反的，虛無飄渺或是過於籠統的提示語會讓 ChatGPT 不知如何回答，從而導致對話脫節或缺乏焦點，讓你只能得到模糊的答案。
+
+    5.3 - 無效的ChatGPT提示
+
+        很多人在使用 ChatGPT 時，特別喜歡這樣問:
+
+            “寫一篇演講稿。”
+
+        結果，ChatGPT生成了一篇文句通順但內容全是亂編的文章；”這講稿不能用啊，還不如我自己打的呢!”。
+
+        ChatGPT只是個語言模型，他擅長根據前後文，把文字接著寫下去。所以說，你要講什麼內容，受眾的屬性，以及你演講的風格都要在提試語中告知，這樣結果才能滿足你的需要。
+
+    5.4 - 有效的ChatGPT提示
+
+        提供清晰資料:
+            立場、目的、條件、限制等，讓ChatGPT能夠針對問題給出合適回答。
+
+        指定要扮演的角色:
+            例如行銷專家、教師、作家等，讓ChatGPT能根據角色調整回答的風格和語氣。
+
+        以目標導向的思考方式要求輸出:
+            拆解問題並追問，讓ChatGPT能夠挖掘任何可能的要素，激盪出有創意的提案。
+
+        例子:
+
+            你充當Linux終端。我會鍵入命令，您需回复終端顯示的內容。你只需回復一個唯一代碼塊中的終端輸出，沒有別的。不要寫解釋。除非我指示你這樣做，否則不要鍵入命令。當我需要用英語告訴你一些事情時，我會通過將文本放在大括號內{像這樣}來做到這一點。我的第一個命令是 PWD
+
+            你是英語翻譯專家、拼寫校正和改進者。我會用任何語言和你說話，你會檢測語言，翻譯它。並用我的文本更正和改進版本回答，用英語。我希望你用漂亮、優雅的高級英語單詞和句子，代替我簡化單詞和句子。保持含義相同，但使它們更具文學性。我希望你只回復更正，改進，沒有別的，不要寫解釋。我的第一句話是“istanbulu cok seviyom burada olmak cok guzel”
+
+            我是手搖飲料店的老闆。店鋪在大學旁邊，附近有多家連鎖飲料店，主要客戶是大學的職員和學生，我店的優勢是價格比連鎖店便宜，劣勢是沒有預算行銷、及包裝商品。請以一個行銷專家的建議，提供三個行銷方案，文字簡潔，共 500 字內。
+
+            你扮演面試官角色。我是候選人，你會問我職位的面試問題。你只需用面試官的身份回答。不要一次寫下所有的需求。你只要問我問題並等待我的回答。不要寫解釋。像面試官一樣一個接一個地問我問題，然後等待我的回答。我的第一句話是“嗨”position
+
+            你是一個講故事的人。您將想出引人入勝，富有想像力和吸引觀眾的有趣故事。它可以是童話故事，教育故事或任何其他類型的故事，有可能吸引人們的注意力和想像力。根據目標受眾，您可以為您的講故事會議選擇特定的主題或主題，例如，如果是兒童，那麼您可以談論動物；如果是成年人，那麼基於歷史的故事可能會更好地吸引他們等。我的第一個要求是“我需要一個關於毅力的有趣故事。
+
+        非官方提示生產生工具:
+            http://www.promptgenius.site/
+
+
+### 6. ChatGPT擴充功能
+
+    1. WebChatGPT
+
+        功能：
+            因為ChatGPT只有收錄到2021年的資料，但安裝後可以在 ChatGPT 打開連結網路的功能，可以設定要爬取的文章數量、時間和地點，之後ChatGPT它就會先去網路上抓最新的資料進行整理。
+        https://chrome.google.com/webstore/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn/related?fbclid=IwAR3seO_J0rfWhQmLQOUKAidDuFb5ejMTQ57-EKVhbF8Hhx3_iq-vhNfq7HQ
+
+    2. ChatGPT Prompt Genius
+
+        功能：
+            安裝好後會在 ChatGPT 的側邊欄位出現一個 Share&Export的功能，後續我們就可以將想要保存的內容匯出成 Png 或 PDF。
+        https://chrome.google.com/webstore/detail/chatgpt-prompt-genius/jjdnakkfjnnbbckhifcfchagnpofjffo/related?fbclid=IwAR3aggm0rmJAk4Vgi0mx45foXjrJwLXydWcz2InZIjqsu7-qkUxqXdQYbTo
+
+    3. ChatGPT Writer
+
+        功能：
+            將 Gmail 連結ChatGPT，後續我們可以在Gmail的後台中，點選藍色閃電符號，就可以輸入關鍵字讓ChatGPT幫我們撰寫Email內容或準備要回覆對方的Email內容並進行修改。
+        https://chrome.google.com/webstore/detail/chatgpt-writer-write-mail/pdnenlnelpdomajfejgapbdpmjkfpjkp/related?fbclid=IwAR05nN5A6EKocYe058oEHd9fCXGgOVblQakBgk-mgtJ1r3P4Y0Pc1C3M1Go
+
+    4. ChatGPT for Google
+
+        功能：
+            在Google搜尋後，會在搜尋結果的右側，多一個 ChatGPT 小視窗，然後將查詢結果進行摘要與整理。
+        https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf?ref=producthunt&fbclid=IwAR04IekVARD2U5ey9Y2peIDf-CouwlCmZ_9KoDMa8oflxYBTRYoiL1Dzbdk
+
+    5. YouTube Summary with ChatGPT
+
+        功能：
+            安裝後會在YouTube的右側會多出工具列，可以複製影片的字幕，也可打開ChatGPT直接讓它幫忙生成影片摘要，然後翻譯成中文。
+        https://chrome.google.com/webstore/detail/youtube-article-summary-p/nmmicjeknamkfloonkhhcjmomieiodli/related
+    
+    6.Luna
+        功能：
+            安裝後就可以在瀏覽網頁時，針對不懂的專有名詞按下滑鼠右鍵，然後連結回ChatGPT讓它為你解答。
+        https://chrome.google.com/webstore/detail/luna-chatgpt-for-your-bro/bignkmclhhmhagjojehblmmaifljphfe/related
 
 
 
 ### 9. 專案實作與證書頒發
 
-   - 實作一個基於 ChatGPT 的應用專案
-   - 專案演示與成果分享
-   - 頒發 ATW 生產力提升學院 ChatGPT 應用課程證書
+   - 學員需實作一個基於 ChatGPT 的應用專案
+   - 學員需專案演示與成果分享
+   - 完成後 ATW 生產力提升學院將頒發 ChatGPT 應用課程證書
 
 
 備註：課程目錄僅供參考，實際課程安排可能根據需求進行調整和修改。
